@@ -1,0 +1,75 @@
+/* Page container */
+.admin-container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  min-height: 100vh;
+  border-radius: 10px;
+  font-family: system-ui, sans-serif;
+  color: #222;
+}
+
+/* Header with logout button */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* Logout button */
+.logout-btn {
+  padding: 8px 16px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Each query card */
+.query-card {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 16px;
+  margin: 12px 0;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Query text */
+.query-card b {
+  font-size: 16px;
+  color: #333;
+}
+
+.query-card p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.query-card small {
+  display: block;
+  margin-top: 8px;
+  color: #666;
+}
+
+/* Dropdown styling */
+.query-card select {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

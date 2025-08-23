@@ -1,0 +1,98 @@
+/* Page background */
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white; /* light gray solid background */
+  font-family: system-ui, sans-serif;
+}
+
+/* Form card */
+.query-form {
+  /* max-width: 600px; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  align-content: center;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 44px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Title */
+.query-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Success / error messages */
+.success-msg {
+  color: green;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+/* Labels */
+.query-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Inputs & textarea */
+.query-form input,
+.query-form textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.query-form input:focus,
+.query-form textarea:focus {
+  border-color: #555;
+}
+
+/* Submit button */
+.query-form button {
+  display: block;
+  /* width: 100%; */
+  max-width: 324px;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.query-form button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}

@@ -1,0 +1,42 @@
+/* Page wrapper */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb); /* subtle gradient */
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+}
+
+/* Header */
+.app-header {
+  width: 100%;
+  max-width: 1000px;
+  background: linear-gradient(90deg, #7695c0, #4b5563); /* dark gradient */
+  color: white;
+  padding: 16px 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Content wrapper */
+.app-content {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
